@@ -41,9 +41,12 @@ PayRecover AI transforms failed payments into recovery opportunities using:
 
 ---
 
-## Architecture
+# 🏗️ Architecture
 
 ![PayRecover AI Architecture](architecture.png)
+
+### System Workflow
+
 ```
 Payment Dataset
         |
@@ -68,21 +71,30 @@ Streamlit Dashboard
 
 ---
 
+# 📊 Dashboard Preview
+
+![PayRecover AI Dashboard](images/dashboard.png)
+
+---
+
 # 🛠️ Tech Stack
 
 ## Backend
+
 - Python
 - FastAPI
 - SQLAlchemy
 - SQLite
 
 ## AI / Analytics
+
 - Pandas
 - NumPy
 - Machine Learning
 - AI Decision Engine
 
 ## Frontend
+
 - Streamlit
 - Plotly
 
@@ -109,6 +121,10 @@ PayRecover-AI/
 │   ├── payments.csv
 │   └── recovery_predictions.csv
 │
+├── images/
+│   └── dashboard.png
+│
+├── architecture.png
 ├── requirements.txt
 └── README.md
 ```
@@ -153,6 +169,12 @@ http://127.0.0.1:8000/docs
 python -m streamlit run dashboard/dashboard.py
 ```
 
+Dashboard:
+
+```
+http://localhost:8501
+```
+
 ---
 
 # 📊 Dashboard Includes
@@ -178,12 +200,16 @@ python -m streamlit run dashboard/dashboard.py
 
 ---
 
-# 👨‍💻 Author
+# 🌐 Project Links
+
+GitHub Repository:
+
+https://github.com/projects-info/PayRecover-AI
+
+Author:
 
 **Yarlagadda Sindhu Bhargavi Chowdary**
 
 GitHub:
-https://github.com/projects-info
 
-Project:
-https://github.com/projects-info/PayRecover-AI
+https://github.com/projects-info
