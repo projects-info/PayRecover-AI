@@ -43,8 +43,6 @@ PayRecover AI transforms failed payments into recovery opportunities using:
 
 # 🏗️ Architecture
 
-![PayRecover AI Architecture](architecture.png)
-
 ### System Workflow
 
 ```
