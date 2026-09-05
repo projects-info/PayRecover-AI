@@ -1,76 +1,164 @@
 # 💰 PayRecover AI
 
-## AI-Powered Revenue Recovery Platform
+## AI-Powered Revenue Recovery Platform 🚀
 
-PayRecover AI is an intelligent payment recovery system that detects failed payments, predicts recoverability, estimates revenue at risk, and recommends AI-driven recovery actions.
-
----
-
-## Features
-
-- AI Recovery Scoring
-- Failed Payment Analysis
-- Revenue at Risk Estimation
-- Intelligent Recovery Recommendations
-- FastAPI REST API
-- Streamlit Dashboard
-- SQLite Database
-- Synthetic Payment Dataset (10,000+ records)
+PayRecover AI is an intelligent payment recovery platform that analyzes failed transactions, predicts recovery potential, estimates revenue at risk, and recommends AI-driven actions to help businesses recover lost revenue.
 
 ---
 
-## Architecture
+# 🎯 Problem
 
-Payments Dataset
-        │
+Payment failures cause significant revenue loss for businesses. Most systems only report failed transactions but do not identify:
+
+- Which payments can be recovered
+- Why failures happen
+- What recovery action should be taken
+
+---
+
+# 💡 Solution
+
+PayRecover AI transforms failed payments into recovery opportunities using:
+
+- Payment failure analysis
+- Recovery scoring engine
+- Revenue intelligence
+- AI recovery recommendations
+
+---
+
+# ✨ Features
+
+✅ AI Recovery Scoring  
+✅ Failed Payment Analysis  
+✅ Revenue At Risk Estimation  
+✅ Recovery Probability Prediction  
+✅ AI Recovery Recommendations  
+✅ FastAPI REST Backend  
+✅ Streamlit Analytics Dashboard  
+✅ SQLite Database  
+✅ Synthetic Payment Dataset (10,000+ records)
+
+---
+
+# 🏗️ Architecture
+
+```
+Payment Dataset
+        |
         ▼
-Revenue Engine
-        │
+Payment Analysis Engine
+        |
         ▼
-Recovery Score
-        │
+Revenue Intelligence Engine
+        |
+        ▼
+Recovery Score Engine
+        |
         ▼
 AI Recovery Agent
-        │
+        |
         ▼
-Analytics
-        │
+Recovery Recommendations
+        |
         ▼
 Streamlit Dashboard
+```
 
 ---
 
-## Tech Stack
+# 🛠️ Tech Stack
 
+## Backend
 - Python
 - FastAPI
-- Streamlit
-- Pandas
-- Plotly
+- SQLAlchemy
 - SQLite
 
+## AI / Analytics
+- Pandas
+- NumPy
+- Machine Learning
+- AI Decision Engine
+
+## Frontend
+- Streamlit
+- Plotly
+
 ---
 
-## Run
+# 📂 Project Structure
 
-Generate AI predictions
+```
+PayRecover-AI/
 
+│
+├── app/
+│   ├── api/
+│   ├── models/
+│   ├── services/
+│   ├── recovery_agent.py
+│   ├── recovery_score.py
+│   └── revenue_engine.py
+│
+├── dashboard/
+│   └── dashboard.py
+│
+├── data/
+│   ├── payments.csv
+│   └── recovery_predictions.csv
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# ▶️ Run Locally
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Generate Recovery Predictions
+
+```bash
 python app/recovery_agent.py
-
-Run Dashboard
-
-python -m streamlit run dashboard/dashboard.py
-
-Run API
-
-python -m uvicorn app.main:app --reload
+```
 
 ---
 
-## Dashboard
+## Start FastAPI Backend
+
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+API Documentation:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Start Dashboard
+
+```bash
+python -m streamlit run dashboard/dashboard.py
+```
+
+---
+
+# 📊 Dashboard Includes
 
 - Payment Analytics
-- Revenue at Risk
+- Revenue At Risk
+- Recoverable Revenue
 - Recovery Score Distribution
 - AI Recommendations
 - Payment Method Analysis
@@ -78,10 +166,23 @@ python -m uvicorn app.main:app --reload
 
 ---
 
-## Future Improvements
+# 🔮 Future Improvements
 
-- Gemini/OpenAI Integration
+- Gemini/OpenAI LLM Integration
 - Razorpay API Integration
-- Automated Retry Engine
-- Email & SMS Recovery
-- ML-based Recovery Prediction
+- Automated Payment Retry Workflow
+- Email & SMS Recovery Automation
+- Production ML Recovery Prediction Model
+- Human Approval Workflow
+
+---
+
+# 👨‍💻 Author
+
+**Yarlagadda Sindhu Bhargavi Chowdary**
+
+GitHub:
+https://github.com/projects-info
+
+Project:
+https://github.com/projects-info/PayRecover-AI
