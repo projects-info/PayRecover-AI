@@ -212,4 +212,8 @@ Author:
 
 GitHub:
 
+<<<<<<< HEAD
 https://github.com/projects-info
+=======
+https://github.com/projects-info
+>>>>>>> b13874b8932a5131fef57ab1e1106aa3c71f80c0
